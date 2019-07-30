@@ -5,3 +5,16 @@
 #navitemfont {
     font-size: 15px;
 }
+
+#goal {
+    position: relative;
+    /* background-color: skyblue; */
+    left: 100px;
+    top: 50px;
+}
+
+#navtabs {
+    background-color: #003B49;
+}
+
+
