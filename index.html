@@ -20,41 +20,86 @@
             </button>
             
           </nav>
-          <ul class="nav nav-tabs" id="navtabs">
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Project</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Goal</a>
-                          <a class="dropdown-item" href="#">Dataset</a>
-                          <!-- <a class="dropdown-item" href="#">Something else here</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Separated link</a> -->
-                        </div>
+          
+          <ul class="nav nav-pills" role="tablist">
+                <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#project" role="tab" aria-controls="Project">Project</a>
                       </li>
             <li class="nav-item">
-              <a class="nav-link" href="visualization.html">Data Visualization</a>
+              <a class="nav-link" data-toggle="tab" href="#visualization" role="tab" aria-controls="Data Visualization">Data Visualization</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="modeling.html">Data Modeling</a>
+              <a class="nav-link" data-toggle="tab" href="#modeling" role="tab" aria-controls="Data Modeling">Data Modeling</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="summary.html">Summary</a>
+              <a class="nav-link " data-toggle="tab" href="#summary" role="tab" aria-controls="Summary">Summary</a>
             </li>
           </ul>
           
-           
+           <div class="tab-content">
+             <div class="tab-pane active" id="project" role="tabpanel">
+          
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                            <img src='pics/data-science-meme.jpeg' id="imgfloat" height="300" width="400"><br>
+                            <p> The goal of this project is to apply machine learning to our dataset and create an algorithm to predict patients' survival based on various features given in the national database.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+             </div>
+
+
+             <div class="tab-pane " id="visualization" role="tabpanel"><div class='container'>
+                <div class="row">
+                    <div class="col-md-4" id="bar">
+                        <img src="https://github.com/heathertrinh1017/Final-Project/blob/master/pics/city_bar.png?raw=true" height="700" width="500"><br>
+                        
+                    </div>
+                    <div class="col-md-8" id="pie" >
+                            <img src="https://github.com/heathertrinh1017/Final-Project/blob/master/pics/Gender_Pie.png?raw=true" height="300" width="300"><br>
+                            <img src="https://github.com/heathertrinh1017/Final-Project/blob/master/pics/race_donut.png?raw=true" height="300" width="300">
+                        </div>
+    
+                      
+                        
+                            
+                </div>
+            </div></div>
+             <div class="tab-pane " id="modeling" role="tabpanel">
+                <div class='container'>
+                    <div class="row">
+                        <div class="col-md-8">
+                          <img src="pics/theano.png" height="300" width="400">
+                            On this page, we compare each model with their corresponding classification reports.
+                        </div>
+                    </div>
+                </div>
+
+
+             </div>
+             <div class="tab-pane " id="summary" role="tabpanel">
+                <div class='container'>
+                    <div class="row">
+                        <div class="col-md-8" id="goal" >
+                            <img src='pics/genius.jpeg' height="300" width="400"><br>
+                            SO WHAT DID WE FIND?
+                        </div>
+                    </div>
+                </div>
+             </div>
+           </div>
+
+          
 
         
     </head>
     <body>
 
-        <div class='container'>
-            <div class="row">
-                <div class="col-md-8" id="goal" >
-                    <img src='pics/genius.jpeg' height="300" width="400"><br>
-                    Project's goal and data description.
-                </div>
-            </div>
+        
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

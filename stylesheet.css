@@ -1,5 +1,5 @@
 #navbg {
-    background-color: #003B49;
+    background-color: #002554;
 }
 
 #navitemfont {
@@ -17,4 +17,38 @@
     background-color: #003B49;
 }
 
+#pie {
+    position: relative;
+    left: 150px;
+    top: 75px;
+ 
+} 
+/*  */
+/* #donut{
+    position: relative;
+    left: 170px;
 
+} */ 
+
+#bar {
+    position: relative;
+    left:-20px;
+    top:0px;
+}
+
+#imgfloat {
+    float:right;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-pills .nav-link {
+    background-color:#A4C8E1;
+    color: white;
+}
+
+.nav-item {
+    padding-right: 1.5px;
+}
