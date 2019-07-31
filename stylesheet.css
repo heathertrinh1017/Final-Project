@@ -1,5 +1,6 @@
 #navbg {
-    background-color: #002554;
+    /* background-color: #002554; */
+    background-image: linear-gradient(to right, #0F0C29 , #28416F);
 }
 
 #navitemfont {
@@ -13,16 +14,12 @@
     top: 50px;
 }
 
-#navtabs {
-    background-color: #003B49;
-}
-
-#pie {
+/* #pie {
     position: relative;
     left: 150px;
     top: 75px;
  
-} 
+}  */
 /*  */
 /* #donut{
     position: relative;
@@ -30,25 +27,31 @@
 
 } */ 
 
-#bar {
+/* #bar {
     position: relative;
     left:-20px;
     top:0px;
-}
+} */
 
 #imgfloat {
     float:right;
 }
 
-.nav-link {
-    color: black;
-}
+
 
 .nav-pills .nav-link {
     background-color:#A4C8E1;
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+   
 }
 
 .nav-item {
-    padding-right: 1.5px;
+    margin: 1.5px;
+
+}
+
+img {
+    border-radius: 20px;
 }
