@@ -13,19 +13,19 @@
     left: 100px;
     top: 50px;
 }
-
-/* #pie {
+#pie {
     position: relative;
-    left: 150px;
+    left: 320px;
     top: 75px;
- 
-}  */
-/*  */
-/* #donut{
-    position: relative;
-    left: 170px;
 
-} */ 
+ 
+}  
+
+#donut{
+    position: relative;
+    left: 320px;
+
+} 
 
 /* #bar {
     position: relative;
